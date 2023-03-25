@@ -2,7 +2,7 @@ import streamlit as st
 import openai 
 
 
-openai.api_key = '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'
+openai.api_key = 'XXXXXX'
 
 def translate_anything(anything, prompt_lang):
     prompt_base = "Translate this into "
