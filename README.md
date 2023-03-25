@@ -1,10 +1,10 @@
-# Building-a-business-model - class activity
+# Building-a-business-model
 ## HungryPanda Application
 
 ![Image post-bro](https://user-images.githubusercontent.com/46862684/227663520-b29b2e7c-90c1-490f-b5eb-38d68166dcd0.svg)
 
 ## Description
-Built a business model for a food blogging and Restaurant review application named **'HungryPanda'** using a total of 3 pre-existing OpenAI models.
+Built a business model for a food blogging and Restaurant review application named **'HungryPanda'** using examples of the OpenAI models. Our business model uses 13 examples from this. Out of which we have productionized 4 examples! 
 
 ## Objective
 1) Assist users to create food recipes based on available ingredients using **OpenAI's Recipe Creator** generative model.
