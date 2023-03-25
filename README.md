@@ -76,10 +76,15 @@ response = openai.Completion.create(
 
 ***Settings***
 Engine: text-davinci-003
+
 Max tokens: 100
+
 Temperature: 0.5
+
 Top p: 1.0
+
 Frequency penalty: 0.0
+
 Presence penalty: 0.0
 
 ```
@@ -95,6 +100,32 @@ response = openai.Completion.create(
   max_tokens=100,
   top_p=1.0,
   frequency_penalty=0.0,
+  presence_penalty=0.0
+)
+```
+**Twitter Classifier**
+
+***Settings***
+Engine: text-davinci-003
+Max tokens: 60
+Temperature: 0
+Top p: 1.0
+Frequency penalty: 0.5
+Presence penalty: 0.0
+
+```
+import os
+import openai
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+response = openai.Completion.create(
+  model="text-davinci-003",
+  prompt="Decide whether a Tweet's sentiment is positive, neutral, or negative.\n\nTweet: \"I loved the new Batman movie!\"\nSentiment:",
+  temperature=0,
+  max_tokens=60,
+  top_p=1.0,
+  frequency_penalty=0.5,
   presence_penalty=0.0
 )
 ```
