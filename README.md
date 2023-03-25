@@ -3,6 +3,8 @@
 
 ![Image post-bro](https://user-images.githubusercontent.com/46862684/227663520-b29b2e7c-90c1-490f-b5eb-38d68166dcd0.svg)
 
+> [🛝 PPT Link](https://docs.google.com/presentation/d/1CYUElHtByr4YBcTA7xzKUfK2-v7FuVPpQEiReKUxTGE/edit?usp=sharing)
+
 ## Description
 Built a business model for a food blogging and Restaurant review application named **'HungryPanda'** using examples of the OpenAI models. Our business model uses 13 examples from this. Out of which we have productionized 4 examples! 
 
